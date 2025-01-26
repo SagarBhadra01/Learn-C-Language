@@ -17,6 +17,7 @@ int main ()
     b= 6.9;
     c= 'S'; // use-> ''
  
+ 
     //print all data
     printf(" Print a= %d \n", a);
     printf(" Print b= %f \n", b);
@@ -41,4 +42,8 @@ int main ()
     // double: 	8 bytes	
     // char :	1 bytes	
 
+
+    //constant variable
+    const int i=10;
+    //i= 20;      //- Since int "i" is constant, this line is an error
 }
