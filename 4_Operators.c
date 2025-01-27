@@ -48,12 +48,12 @@ int main(){
 
 
     //Bitwise operator ->
-    printf("a & b: %d\n", a & b);   //(Bitwise AND) 
-    printf("a | b: %d\n", a | b);   //(Bitwise OR) 
-    printf("a ^ b: %d\n", a ^ b);   //(Bitwise XOR) 
-    printf("~a: %d\n", ~a);         //(Bitwise First Complement) 
-    printf("a >> b: %d\n", a >> b); //(Bitwise Leftshift) 
-    printf("a << b: %d\n", a << b); //(Bitwise Rightshift) 
+    printf("a & b: %d\n", a & b);   //(Bitwise AND) Performs bit-by-bit AND operation and returns the result.	
+    printf("a | b: %d\n", a | b);   //(Bitwise OR) Performs bit-by-bit OR operation and returns the result.	
+    printf("a ^ b: %d\n", a ^ b);   //(Bitwise XOR) Performs bit-by-bit XOR operation and returns the result.	
+    printf("~a: %d\n", ~a);         //(Bitwise First Complement) Flips all the set and unset bits on the number.	
+    printf("a >> b: %d\n", a >> b); //(Bitwise Leftshift) Shifts the number in binary form by one place in the operation and returns the result.	
+    printf("a << b: %d\n", a << b); //(Bitwise Rightshift) Shifts the number in binary form by one place in the operation and returns the result.	
 
 
     // "?:" use for terminal condition.(its ternary operator)
