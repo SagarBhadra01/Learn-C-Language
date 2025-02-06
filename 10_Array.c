@@ -8,11 +8,13 @@ int main(){
     // specifying size
     int arr2[] = { 1, 2, 3, 4, 5 };
 
-    // array initialization using for loop
-    float arr3[5];
-    for (int i = 0; i < 5; i++) {
-        arr2[i] = (float)i * 2.1;
-    }
+    //print array values
+    for (int j = 0; j < 5; j++) {
+    printf("%d\n", arr1[j]);
+    printf("%d\n", arr2[j]);
+
+
+}
 
     
 
